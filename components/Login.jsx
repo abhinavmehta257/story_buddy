@@ -5,7 +5,7 @@ function Login() {
   return (
     <div className="flex justify-center">
       <div className="w-full pl-[16px] pr-[16px]">
-        <div className="h-[150px] w-full absolute bg-[url('/assets/img/login-1.png')] bg-no-repeat bg-contain bg-right z-[-1]"></div>
+        <div className="h-[150px] w-full fixed bg-[url('/assets/img/login-1.png')] bg-no-repeat bg-contain bg-right z-[-1]"></div>
 
         <div className="w-full pt-[48px] justify-start items-center gap-3 flex">
           <Link
@@ -81,7 +81,7 @@ function Login() {
           </div>
         </div>
       </div>
-      <div className="h-[150px] bottom-0 left-0 w-full absolute bg-[url('/assets/img/login-2.png')] bg-no-repeat bg-contain bg-left-bottom z-[-1]"></div>
+      <div className="h-[150px] bottom-0 left-0 w-full fixed bg-[url('/assets/img/login-2.png')] bg-no-repeat bg-contain bg-left-bottom z-[-1]"></div>
     </div>
   );
 }
