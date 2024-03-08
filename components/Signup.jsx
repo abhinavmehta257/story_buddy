@@ -24,10 +24,10 @@ function Signup() {
         </div>
         <div className="mt-[48px] flex-col justify-start items-start gap-1 flex">
           <div className="text-indigo-950 text-base font-normal font-['Poppins']">
-            Hello!
+            New here?
           </div>
           <div className="text-indigo-950 text-2xl font-semibold font-['Poppins'] leading-9">
-            Log into your account
+            Create a new account
           </div>
         </div>
         <div className="mt-[32px]">
