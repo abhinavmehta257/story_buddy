@@ -1,26 +1,25 @@
 import Link from "next/link";
 import React from "react";
 
-function Login() {
+function Signup() {
   return (
     <div className="flex justify-center">
       <div className="w-full pl-[16px] pr-[16px]">
         <div className="h-[150px] w-full absolute bg-[url('/assets/img/login-1.png')] bg-no-repeat bg-contain bg-right z-[-1]"></div>
-
         <div className="w-full pt-[48px] justify-start items-center gap-3 flex">
           <Link
-            href="login"
-            className="px-4 py-1.5 bg-amber-100 rounded-lg border border-indigo-950 justify-center items-center gap-2.5 flex"
+            href="/login"
+            className="text-center text-zinc-800 text-xs font-normal font-['Poppins']"
           >
-            <div className="text-center text-indigo-950 text-xs font-semibold font-['Poppins']">
-              Log in
-            </div>
+            Log in
           </Link>
           <Link
             href="/signup"
-            className="text-center text-zinc-800 text-xs font-normal font-['Poppins']"
+            className="px-4 py-1.5 bg-amber-100 rounded-lg border border-indigo-950 justify-center items-center gap-2.5 flex"
           >
-            Sign Up
+            <div className="text-center text-indigo-950 text-xs font-semibold font-['Poppins']">
+              Sign Up
+            </div>
           </Link>
         </div>
         <div className="mt-[48px] flex-col justify-start items-start gap-1 flex">
@@ -33,13 +32,21 @@ function Login() {
         </div>
         <div className="mt-[32px]">
           <div className=" text-indigo-950 text-xs font-normal font-['Poppins']">
+            Name
+          </div>
+          <input
+            className=" w-full h-10 mt-[6px] pl-[16px] pr-[16px] pt-[12px] pb-[12px] bg-white rounded-2xl border border-orange-200 focus:outline-none focus:border-orange-400"
+            placeholder="Enter your Name"
+          />
+        </div>
+        <div className="mt-[16px]">
+          <div className=" text-indigo-950 text-xs font-normal font-['Poppins']">
             Email ID
           </div>
           <input
             className=" w-full h-10 mt-[6px] pl-[16px] pr-[16px] pt-[12px] pb-[12px] bg-white rounded-2xl border border-orange-200 focus:outline-none focus:border-orange-400"
             placeholder="Enter your Email ID"
           />
-          {/* <div className=" text-zinc-500 text-xs font-normal font-['Poppins']"></div> */}
         </div>
         <div className="mt-[16px]">
           <div className=" text-indigo-950 text-xs font-normal font-['Poppins']">
@@ -50,22 +57,12 @@ function Login() {
             placeholder="Enter your Password"
           />
         </div>
-        <div className="mt-[8px] text-right flex justify-end">
-          <img
-            src="./assets/icons/question-mark.png"
-            className="w-4 h-4 p-[1.33px] justify-center items-center inline-flex"
-          />
-          <div className="text-indigo-950 text-xs font-normal font-['Poppins'] underline">
-            Forgot Password?
-          </div>
-        </div>
         <div className="mt-[32px] w-full">
           <div className="w-full py-[11px] bg-amber-100 rounded-2xl border border-indigo-950 shadow-[1px_4px_0px_0px_rgba(39,25,74,1)] justify-center items-center inline-flex">
             <div className="text-center text-indigo-950 text-xs font-semibold font-['Poppins']">
-              Log in
+              Sign Up
             </div>
           </div>
-          {/* <div className="mt-[-20px]  h-10 bg-indigo-950 rounded-2xl border border-indigo-950" /> */}
         </div>
         <div className="w-full mt-[16px] justify-center items-center gap-2 inline-flex">
           <div className="text-center text-neutral-400 text-xs font-normal font-['Open Sans']">
@@ -76,7 +73,7 @@ function Login() {
           <div className="w-full h-10 bg-white rounded-2xl border border-indigo-950 shadow-[1px_4px_0px_0px_rgba(39,25,74,1)] items-center justify-center gap-2 flex">
             <img className="w-4 h-4" src="./assets/icons/google-icon.png" />
             <div className="text-indigo-950 text-xs font-medium font-['Poppins']">
-              Log in with Google
+              Sign Up with Google
             </div>
           </div>
         </div>
@@ -86,4 +83,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signup;
