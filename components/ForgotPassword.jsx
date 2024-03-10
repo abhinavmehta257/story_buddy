@@ -39,7 +39,7 @@ function ForgotPassword() {
             href="/login"
             className="text-sky-300 text-xs font-normal font-['Open Sans'] underline"
           >
-            Sign Up
+            Log In
           </Link>
         </div>
       </div>

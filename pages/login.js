@@ -1,5 +1,15 @@
+import { useRouter } from "next/router";
 import Login from "../components/Login";
+import HtmlHeader from "../components/blocks/htmlHeader";
+import withAuth from "../helpers/withAuth";
 
-export default function login() {
-  return <Login />;
+function login() {
+  return (
+    <>
+      <HtmlHeader title={"Login"} />
+      <Login />
+    </>
+  );
 }
+
+export default withAuth(login);
