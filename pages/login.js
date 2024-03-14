@@ -1,6 +1,5 @@
-import { useRouter } from "next/router";
 import Login from "../components/Login";
-import HtmlHeader from "../components/blocks/htmlHeader";
+import HtmlHeader from "../components/blocks/HtmlHeader";
 import withAuth from "../helpers/withAuth";
 
 function login() {

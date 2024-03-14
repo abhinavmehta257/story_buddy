@@ -1,5 +1,5 @@
 import ForgotPassword from "../components/ForgotPassword";
-import HtmlHeader from "../components/blocks/htmlHeader";
+import HtmlHeader from "../components/blocks/HtmlHeader";
 
 export default function signup() {
   return (

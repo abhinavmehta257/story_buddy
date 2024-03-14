@@ -1,6 +1,5 @@
 import Signup from "../components/Signup";
-import HtmlHeader from "../components/blocks/htmlHeader";
-import withAuth from "../helpers/withAuth";
+import HtmlHeader from "../components/blocks/HtmlHeader";
 function signup() {
   return (
     <>

@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import InstallPWAbutton from "../components/blocks/InstallPWAbutton";
 
 export default function Home() {
